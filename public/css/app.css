@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body a:hover {
+  color: chocolate;
+}
+
+header {
+  height: 10vh;
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  height: 10vh;
+  background-color: chocolate;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+}
+
+#create {
+  height: 80vh;
+}
+
+#show {
+  color: white;
+}
+
+label {
+  color: chocolate;
+}
+
+.error {
+  color: white;
+}
+
+#edit {
+  display: inline-block;
+  color: green;
+  margin: 0 15px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+#delete {
+  color: red;
+}
+

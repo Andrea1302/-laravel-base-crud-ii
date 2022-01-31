@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'homeController@home') -> name('home');
+Route::get('/comic/show/{id}', 'homeController@show') -> name('show');
+Route::get('/create', 'homeController@create') -> name('create');
+Route::post('/store', 'homeController@store') -> name('store');
+
+Route::get('comic/edit/{id}', 'homeController@edit') -> name('edit');
+
+Route::post('update/{id}', 'homeController@update') -> name('update');
+Route::get('comic/delete/{id}', 'homeController@delete') -> name('delete');
+
+
