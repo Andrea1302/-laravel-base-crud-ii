@@ -1,10 +1,11 @@
 @extends('layouts.main-layout')
 
 @section('content')
-<div class="create">
-    <a href="{{route('create')}}">Create</a>
-</div>
 <div class="home">
+    {{-- create  --}}
+    <a class="btn btn-secondary" href="{{route('create')}}">Create</a>
+
+
 
     <ul>
         @foreach ($comics as $comic)

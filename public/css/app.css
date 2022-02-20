@@ -30,6 +30,11 @@ form {
   display: flex;
 }
 
+.home {
+  height: 80vh;
+  padding: 20px 0;
+}
+
 #create {
   height: 80vh;
 }
